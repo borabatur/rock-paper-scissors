@@ -1,0 +1,84 @@
+body {
+    background-color: cadetblue;
+}
+.container, .status-container   {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #214b67;
+    font-weight: bold;
+    font-size: 40px;
+    height: 100px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+}
+
+#rock, #paper, #scissors    {
+    max-width: 95px;
+    max-height: 100px;
+    border: 5px transparent;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#rock:hover,
+#paper:hover,
+#scissors:hover {
+  transform: scale(1.1);
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+#rock {
+    margin-right: 20px;
+}
+  
+#scissors {
+    margin-left: 20px;
+}
+
+.player, .computer, .status {
+    margin: 20px;
+    padding: 20px;
+    background-color: #383e42;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    width: 350px;
+    height: 250px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.status {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
