@@ -89,7 +89,6 @@ function playRound(playerSelection) {
     ${winner}`;
     statusBox.appendChild(para);
 
-    // Reset the game
     playerScore = 0;
     computerScore = 0;
     playerScoreDisplay.textContent = "Score: 0";
